@@ -259,6 +259,10 @@ h6 {
   text-align: right;
 }
 
+.phone {
+  margin-left: 7px;
+}
+
 .mobile-nav-toggle i {
   color: #556270;
 }
@@ -305,6 +309,7 @@ h6 {
   content: '\ea99';
   font-family: IcoFont;
   padding-left: 10px;
+
   position: absolute;
   right: 15px;
 }
