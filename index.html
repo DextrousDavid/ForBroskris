@@ -54,7 +54,7 @@
               class="animate__animated animate__fadeInUp scrollto"
             >Services</a></li>
             <li><a
-              href="#contactUs"
+              href="#contact"
               class="animate__animated animate__fadeInUp scrollto"
             >Contact Us</a></li>
           </ul>
@@ -73,8 +73,8 @@
 
             "
           >
-            <i class="bx bx-tada bxs-phone-call"></i> +2348051405611</p
-          >
+            <a target="_blank" style="color: green" href="https://api.whatsapp.com/send?phone=+2348051405611"><i class="bx bx-tada bxl-whatsapp"></i> +2348051405611</p
+          ></a>
         </div>
       </div>
     </header>
@@ -316,6 +316,60 @@
       </section>
       <!-- End Services Section -->
 
+      <!--Contact Section-->
+      <section id="contact" class="contact">
+        <div class="container">
+
+          <div class="section-title">
+            <h2>CONTACT</h2>
+            <p>CONTACT US</p>
+          </div>
+
+          <div class="row mt-5">
+
+            <div class="col-md-4 col-lg-4">
+              <div class="info">
+                <div class="address">
+                  <i class="icofont-google-map"></i>
+                  <h4>Location:</h4>
+                  <p>Lekki, Lagos. Nigeria</p>
+                </div>
+
+                <div class="email">
+                  <i class="icofont-envelope"></i>
+                  <h4>Email:</h4>
+                  <p>info@gmail.com</p>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="col-md-8 col-lg-8 mt-5 mt-lg-0">
+
+              <form name="contact" method="POST" role="form" data-netlify="true">
+                <div class="form-row">
+                  <div class="col-md-6 form-group">
+                    <input required type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  </div>
+                  <div class="col-md-6 form-group">
+                    <input required type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <input required validate type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 4 chars of subject" />
+                </div>
+                <div class="form-group">
+                  <textarea required class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                </div>
+                <div class="text-center"><button class="btn btn-danger"type="submit">Send Message</button></div>
+              </form>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section><!-- End Contact Section -->
          <!-- End #main -->
 
     <!-- ======= Footer ======= -->
@@ -326,7 +380,7 @@
             <div class="col-lg-3 col-md-4 col-lg-4">
               <div class="footer-info">
                 <h3>KRIS<span style="color:orange">CCTV</span></h3>
-                <h5 id="contactUs"><span style="color: orange">Contact</span> Us</h5>
+                <h5><span style="color: orange">Contact</span> Us</h5>
 
                 <p>
                   Lekki <br />
@@ -336,7 +390,7 @@
                   <strong>Phone2:</strong> <i class="bx bx-tada bxs-phone-call"></i
                     > +2348150343401<br />
 
-                  <strong>Email:</strong> <i class=""></i> info@example.com<br />
+                  <strong>Email:</strong> <i class=""></i> info@gmail.com<br />
                 </p>
                 <div class="social-links mt-3">
                   <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
