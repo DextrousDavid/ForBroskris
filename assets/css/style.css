@@ -80,12 +80,11 @@ h6 {
 }
 
 #header .logo {
-  font-size: 20px;
+  font-size: 17px;
   margin: 0;
   padding: 0;
   line-height: 1;
   font-weight: 700;
-  text-transform: uppercase;
 }
 
 #header .logo a {
@@ -135,7 +134,7 @@ h6 {
 .nav-menu a:hover,
 .nav-menu .active > a,
 .nav-menu li:hover > a {
-  color: #d9232d;
+  color: orange;
 }
 
 .nav-menu .drop-down ul {
@@ -270,9 +269,9 @@ h6 {
 .mobile-nav {
   position: fixed;
   top: 55px;
-  right: 15px;
-  bottom: 15px;
-  left: 15px;
+  right: 20px;
+  bottom: 300px;
+  left: 20px;
   z-index: 9999;
   overflow-y: auto;
   background: #fff;
@@ -301,7 +300,7 @@ h6 {
 .mobile-nav a:hover,
 .mobile-nav .active > a,
 .mobile-nav li:hover > a {
-  color: #d9232d;
+  color: orange;
   text-decoration: none;
 }
 
@@ -381,8 +380,9 @@ h6 {
 
 #hero .carousel-item {
   background-size: cover;
+  width: 100%;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat no-repeat;
 }
 
 #hero .carousel-item::before {
