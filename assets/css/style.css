@@ -270,11 +270,11 @@ h6 {
   position: fixed;
   top: 55px;
   right: 20px;
-  bottom: 300px;
+  bottom: 200px;
   left: 20px;
   z-index: 9999;
   overflow-y: auto;
-  background: #fff;
+  background: black;
   transition: ease-in-out 0.2s;
   opacity: 0;
   visibility: hidden;
